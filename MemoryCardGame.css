@@ -1,0 +1,55 @@
+body {
+    background: black;
+}
+
+h1 {
+    vertical-align: middle;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+div {
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 1px 1px 5px #888;
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-image: url(michal-grosicki-221225.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.flipper {
+    position: relative;
+}
