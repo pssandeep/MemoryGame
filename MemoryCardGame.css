@@ -1,19 +1,14 @@
-body {
-    background: black;
-}
-
 h1 {
     vertical-align: middle;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    background-color: black;
-    color: white;
+    color: red;
     margin-top: 25px;
 }
 
 table {
     width: 100%;
-    border-spacing: 10px;
+    border-spacing: 5px;
     margin: auto;
 }
 
@@ -52,4 +47,17 @@ div {
 
 .flipper {
     position: relative;
+}
+
+.flipdisable{
+      pointer-events: none;
+}
+
+.disable{
+
+  pointer-events: none;
+
+  /* for "disabled" effect */
+  opacity: 0.3;
+  background: #CCC;
 }
